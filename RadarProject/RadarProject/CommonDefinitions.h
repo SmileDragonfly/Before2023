@@ -1,0 +1,12 @@
+#pragma once
+
+#define GRAPHIC_VIEW_ROW            4
+#define GRAPHIC_VIEW_COLUMN         4
+#define RADAR_REAL_SIZE             1000
+#define RADAR_DISPLAY_SIZE          1000
+
+#define COLOR_SPACE_SIZE            255
+#define RADAR_REAL_RADIUS           RADAR_REAL_SIZE / 2
+#define RADAR_DISPLAY_RADIUS        RADAR_DISPLAY_SIZE / 2
+#define BORDER_SIZE                 20
+#define PACKET_PER_TIME             600

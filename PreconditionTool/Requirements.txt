@@ -1,0 +1,24 @@
+AdoptOpenJDK JRE with Hotspot 11.0.11+9 (x64):11.0.11.9
+Microsoft ASP.NET MVC 4:4.0.20714.0
+ActiveMQ:Running
+Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319:10.0.30319
+Apache Ignite ODBC 32-bit Driver:2.13.0.63255
+Apache Ignite ODBC 64-bit Driver:2.13.0.63255
+Microsoft OLE DB Driver for SQL Server:18.3.0.0
+Microsoft .NET Core Runtime - 3.1.4 (x64):3.1.4.28821
+Microsoft ASP.NET Core 3.1.4 Shared Framework (x64):3.1.4.0
+Microsoft .NET Core 3.1.4 - Windows Server Hosting:3.1.4.20222
+SQL Server Management Studio:15.0.18390.0
+Python 3.6.4 Core Interpreter (64-bit):3.6.4150.0
+Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.23.27820:14.23.27820.0
+
+
+
+
+
+
+
+
+
+
+

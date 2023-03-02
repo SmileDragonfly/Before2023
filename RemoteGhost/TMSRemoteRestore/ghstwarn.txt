@@ -1,0 +1,584 @@
+
+*********************************
+Date   : Tue Sep 01 13:28:09 2020
+Error Number: 651
+Message: Failed to restore the image as the next span of the image was not found. If you are using a location on an HTTP server, verify that the MIME-type settings for the extensions of the image span files have been manually added to the HTTP server.
+
+Version: 12.0.0.8019(Nov 17 2015, Build=8019
+OS Version: Home Edition  (Build 9200)
+Command line arguments: -clone,mode=prestore,src=c:\test.ini:1,dst=1:4 -sure -fx
+Active Switches :
+       AutoName
+PathName            : 
+Last LFO Buffersize : 0
+Last LFO Path       : 
+  Full Path         : c:\test.ini
+  Disk:Partition    : 1:2
+  Drive Letter      : C:\ 
+Last LFO Filesystem : Native
+Last LFO Error      : Win32 error: (0x00000002)
+Message description : The system cannot find the file specified.
+
+Last LFO Error Path : 
+  Full Path         : d:\vsproject\cpp2020\tmsremoterestore\tmsremoterestore\winnt
+  Disk:Partition    : 1:3
+  Drive Letter      : D:\ 
+FlagImplode         : 0
+FlagExplode         : 0
+
+CloneSrc            : c:\test.ini
+BatchPartSrc        : 1
+BatchPartMSrc       : 
+
+CloneDst            : 1:4
+BatchPartDst        : 4
+
+Operation Details :
+  Total size.........0
+  MB copied..........0
+  MB remaining.......0
+  Percent complete...0%
+  Speed..............0 MB/min
+  Time elapsed.......0:00   
+  Time remaining.....0:00   
+
+Thread #8664 Call Stack
+OldGhostUI::winSpanning
+GhoImage_11::GetNextFile
+GhoImage_11::ReadSpanHeader
+GhoImage_11::ghoRead
+GhoImage_11::ReadDumpHeader2
+GhoImage_11::CheckDumpFile
+OldGhostUI::OldGhostUI::getFirstDumpFile
+OldGhostUI::OldGhostUI::selectSourceImage
+OldGhostUI::OldGhostUI::attemptOperation
+GhostClonerImpl::runMainScript
+sub_main
+main
+
+Call Stack
+D:\VSProject\CPP2020\TMSRemoteRestore\TMSRemoteRestore - D:\VSProject\CPP2020\TMSRemoteRestore\Debug\Ghost64.exe 12.0
+0xFFFFFFFFC20DA799
+
+
+Start heap available: 2404962304
+Cur   heap available: 2374189056
+Total Memory:         8354414592
+
+
+Source Point
+============
+
+Name:            
+Current volume:  0
+Current file:    
+Transfer option: 0
+Policy
+======
+{ 
+}
+
+
+Sink Point
+==========
+
+Name:            
+Current volume:  0
+Current file:    
+Transfer option: 0
+Policy
+======
+{ 
+}
+
+Allocated
+  33500 ..\GhoImage.cpp:188
+  33500 ..\GhoImage.cpp:188
+  33500 ..\GhoImage.cpp:188
+Free
+
+Fat details:
+
+NTFS details:
+----------------
+
+NTFS Global Flags:
+----------------
+	 contiguousWrite=1 forceDiskClusterMapping=0 
+	 inhibitCHKDSK=1 ignoreBadLog=0ignoreCHKDSKBit=0
+	 enable_cache=0 xfrbuflen=0 
+	 last_attr_type = 0 
+	 loadExact = 0
+	 sameSize = 0
+----------------
+
+Disk Info :
+  remote.............0
+  drive..............ff
+  sectorsUsedCount.......0
+  estimatedUsedCount.....0
+  numPartitions..............0
+  Version............0
+  Full structure dump....
+   {
+      SVersion: 0
+      SCylinders: 0
+      SDiskFormat: 13
+      SMbr: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 0
+      SHeadsPerCyl: 0
+      SectorsPerTrack: 0
+      SRemote: false
+      SEndOfImagePosition: 0
+      SFlags: 0
+      SPatchedFileCount: 0
+      SDrive: ff
+      SEstimatedUsed: 0
+      STotalSectors: 0
+      SPartitions: 
+      [
+      ]
+      SSectorsUsed: 0
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+
+Disk Info :
+  remote.............0
+  drive..............ff
+  sectorsUsedCount.......0
+  estimatedUsedCount.....0
+  numPartitions..............0
+  Version............0
+  Full structure dump....
+   {
+      SVersion: 0
+      SCylinders: 0
+      SDiskFormat: 13
+      SMbr: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 0
+      SHeadsPerCyl: 0
+      SectorsPerTrack: 0
+      SRemote: false
+      SEndOfImagePosition: 0
+      SFlags: 0
+      SPatchedFileCount: 0
+      SDrive: ff
+      SEstimatedUsed: 0
+      STotalSectors: 0
+      SPartitions: 
+      [
+      ]
+      SSectorsUsed: 0
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+
+Fixed Drives
+
+Drive 0 NVMe PC SN520 NVMe WD 0012
+
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Cylinders                31130
+Heads                    255
+Sectors per Track        63
+
+Drive 0 NVMe PC SN520 NVMe WD 0012
+ASPI
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Cylinders                31130
+Heads                    255
+Sectors per Track        63
+Successful IO Count      9
+
+Drive 79 OS Volumes
+
+Total Sectors            469352482
+Bytes per Sector         512
+MB                       229176
+Cylinders                29215
+Heads                    255
+Sectors per Track        63
+
+AsyncIo : 0
+
+Image Devices
+
+
+Volume attributes
+=================
+1.1:
+Attribute dump
+DiskSignatureNt:755504151
+DiskModelNumber:NVMe PC SN520 NVMe WD 0012
+VolumeSectorOffset:2048
+
+1.2:
+Attribute dump
+DiskSignatureNt:755504151
+DiskModelNumber:NVMe PC SN520 NVMe WD 0012
+VolumeSectorOffset:1595392
+
+1.3:
+Attribute dump
+DiskSignatureNt:755504151
+DiskModelNumber:NVMe PC SN520 NVMe WD 0012
+VolumeSectorOffset:259637248
+
+80.1:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:1595392
+
+80.2:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:259637248
+
+LargeMemoryAllocationFactory diagnostic...
+==========================================
+
+Heap available at construction: 2406649856
+Current heap available:         2374131712
+Total Memory:                   8354414592
+
+Allocated
+
+DiskManager diagnostic...
+=========================
+
+Fixed Drives
+
+Drive 0 NVMe PC SN520 NVMe WD 0012
+
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Cylinders                31130
+Heads                    255
+Sectors per Track        63
+
+Drive 0 NVMe PC SN520 NVMe WD 0012
+ASPI
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            500118192
+Bytes per Sector         512
+MB                       244198
+Cylinders                31130
+Heads                    255
+Sectors per Track        63
+Successful IO Count      10
+
+Drive 79 OS Volumes
+
+Total Sectors            469352482
+Bytes per Sector         512
+MB                       229176
+Cylinders                29215
+Heads                    255
+Sectors per Track        63
+
+FilesystemMounter diagnostic...
+===============================
+
+
+FilesystemManager diagnostic...
+===============================
+
+Volume 1
+VolumePos: 1:2
+DriveLetter: C:
+Description:  123.04GB Disk 0 Offset     779MB  123.04GB NVMe PC SN520 NVMe WD 0012
+Type:        fsfNtfsWindowsXP
+Name:        OS
+
+Volume 2
+VolumePos: 1:3
+DriveLetter: D:
+Description:     100GB Disk 0 Offset  123.80GB     100GB NVMe PC SN520 NVMe WD 0012
+Type:        fsfNtfsWindowsXP
+Name:        Data
+
+Volume 3
+VolumePos: 1:1
+DriveLetter: 
+Description:     650MB Disk 0 Offset       1MB     650MB NVMe PC SN520 NVMe WD 0012
+Type:        fsfFat32
+Name:        ESP
+
+Volume 4
+VolumePos: 80:1
+DriveLetter: C:
+Description:  123.04GB Disk 79 Offset     779MB  123.04GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        OS
+
+Volume 5
+VolumePos: 80:2
+DriveLetter: D:
+Description:     100GB Disk 79 Offset  123.80GB     100GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        Data
+
+
+LfoFilesystemManager diagnostic...
+==================================
+
+Filesystem Index: 0
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: C:
+    ID Type: 1
+    ID: 1:2
+    ID Type: 8
+    ID: 1:2:
+    ID Type: 4
+    ID: OS:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: OS
+
+Filesystem Index: 1
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: D:
+    ID Type: 1
+    ID: 1:3
+    ID Type: 8
+    ID: 1:3:
+    ID Type: 4
+    ID: DATA:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: Data
+
+Filesystem Index: 2
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 1:1
+    ID Type: 8
+    ID: 1:1:
+    ID Type: 4
+    ID: ESP:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 3
+    volumeName: ESP
+
+Filesystem Index: 3
+Filesystem Descriptor:
+  ID's:
+    ID Type: 4
+    ID: HTTP://
+  DriveType: 512
+  No FilesystemInfo structure.
+  Filesystem has no VolumePtr
+
+Filesystem Index: 4
+Filesystem Descriptor:
+  ID's:
+    ID Type: 4
+    ID: HTTPS://
+  DriveType: 512
+  No FilesystemInfo structure.
+  Filesystem has no VolumePtr
+
+Filesystem Index: 5
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80:1
+    ID Type: 8
+    ID: 80:1:
+    ID Type: 4
+    ID: OS:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: OS
+
+Filesystem Index: 6
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80:2
+    ID Type: 8
+    ID: 80:2:
+    ID Type: 4
+    ID: DATA:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: Data
+
+
+Environment Variables
+=====================
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Admin\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=DATDT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+HOMEPATH=\Users\Admin
+LOCALAPPDATA=C:\Users\Admin\AppData\Local
+LOGONSERVER=\\DATDT
+MOZ_PLUGIN_PATH=C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+MSBuildLoadMicrosoftTargetsReadOnly=true
+MSVC16_ROOT=C:\MSVC15
+NUMBER_OF_PROCESSORS=8
+OneDrive=C:\Users\Admin\OneDrive
+OneDriveConsumer=C:\Users\Admin\OneDrive
+OS=Windows_NT
+PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\shell.w32-ix86;C:\Users\Admin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\NASM;C:\MSVC15\BIN;C:\MSVC15\UPX;C:\MSVC15\VSYASM;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile=C:\Users\Admin\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e0c
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.3\bin;
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\Admin\AppData\Local\Temp
+TMP=C:\Users\Admin\AppData\Local\Temp
+USERDOMAIN=DATDT
+USERDOMAIN_ROAMINGPROFILE=DATDT
+USERNAME=Admin
+USERPROFILE=C:\Users\Admin
+VisualStudioDir=C:\Users\Admin\Documents\Visual Studio 2013
+VisualStudioEdition=Microsoft Visual Studio Professional 2013
+VisualStudioVersion=12.0
+VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSLANG=1033
+windir=C:\WINDOWS
+
+
+Configuration Server Variables
+==============================
+
+{
+    LfoFilesystemManager\:\:StartHttp = 1U,
+    Ghost\:\:ExePath = "D:\\VSProject\\CPP2020\\TMSRemoteRestore\\Debug\\Ghost64.exe",
+    Ghost\:\:FlagDemo = 0U,
+    Ghost\:\:startAvailMemory = 2404962304U,
+    Ghost\:\:FlagSpanning = 1U,
+    Ghost\:\:FlagMBR = 70U,
+    Preserve = {
+        RecoveredImage = Keep
+    },
+    Ghost\:\:TransferOption = 52U,
+    Ghost\:\:SpanSplit = 9223372036854775807U,
+    Ghost\:\:ImageFileDescription = ""
+}
+
+*********************************
+
+

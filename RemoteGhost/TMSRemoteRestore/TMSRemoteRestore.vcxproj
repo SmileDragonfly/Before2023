@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{628C47AC-40AE-4B96-B45D-7E0DEA842588}</ProjectGuid>
+    <RootNamespace>TMSRemoteRestore</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\json\InforStructJSON.h" />
+    <ClInclude Include="..\Include\json\JsonParser.h" />
+    <ClInclude Include="..\Include\json\json\autolink.h" />
+    <ClInclude Include="..\Include\json\json\config.h" />
+    <ClInclude Include="..\Include\json\json\features.h" />
+    <ClInclude Include="..\Include\json\json\forwards.h" />
+    <ClInclude Include="..\Include\json\json\json.h" />
+    <ClInclude Include="..\Include\json\json\json_batchallocator.h" />
+    <ClInclude Include="..\Include\json\json\json_tool.h" />
+    <ClInclude Include="..\Include\json\json\reader.h" />
+    <ClInclude Include="..\Include\json\json\value.h" />
+    <ClInclude Include="..\Include\json\json\writer.h" />
+    <ClInclude Include="..\Include\logging\Log.h" />
+    <ClInclude Include="..\Include\logging\LogDefine.h" />
+    <ClInclude Include="..\Include\logging\OSSpecific.h" />
+    <ClInclude Include="..\Include\logging\shared_queue.h" />
+    <ClInclude Include="..\Include\model\BusinessLayer\DataObject.h" />
+    <ClInclude Include="..\Include\model\BusinessLayer\DeviceStatusObject.h" />
+    <ClInclude Include="..\Include\model\HTMLUtils.h" />
+    <ClInclude Include="..\Include\utils\Console.h" />
+    <ClInclude Include="..\Include\utils\ConsoleSolidcoreInteract.h" />
+    <ClInclude Include="..\Include\utils\CrashHandler.h" />
+    <ClInclude Include="..\Include\utils\CRC32.h" />
+    <ClInclude Include="..\Include\utils\Crc32Faster.h" />
+    <ClInclude Include="..\Include\utils\ExportMessageStatus.h" />
+    <ClInclude Include="..\Include\utils\FileVersionInfo.h" />
+    <ClInclude Include="..\Include\utils\singleinstance.h" />
+    <ClInclude Include="..\Include\utils\Utils.h" />
+    <ClInclude Include="CommonDefine.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Drive.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TMSRemoteRestore.h" />
+    <ClInclude Include="TMSRemoteRestoreDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\json\InforStructJSON.cpp" />
+    <ClCompile Include="..\Include\json\JsonParser.cpp" />
+    <ClCompile Include="..\Include\json\json_reader.cpp" />
+    <ClCompile Include="..\Include\json\json_value.cpp" />
+    <ClCompile Include="..\Include\json\json_writer.cpp" />
+    <ClCompile Include="..\Include\logging\Log.cpp" />
+    <ClCompile Include="..\Include\logging\OSSpecific.cpp" />
+    <ClCompile Include="..\Include\model\HTMLUtils.cpp" />
+    <ClCompile Include="..\Include\utils\Console.cpp" />
+    <ClCompile Include="..\Include\utils\ConsoleSolidcoreInteract.cpp" />
+    <ClCompile Include="..\Include\utils\CrashHandler.cpp" />
+    <ClCompile Include="..\Include\utils\CRC32.cpp" />
+    <ClCompile Include="..\Include\utils\ExportMessageStatus.cpp" />
+    <ClCompile Include="..\Include\utils\FileVersionInfo.cpp" />
+    <ClCompile Include="..\Include\utils\singleinstance.cpp" />
+    <ClCompile Include="..\Include\utils\Utils.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Drive.cpp" />
+    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TMSRemoteRestore.cpp" />
+    <ClCompile Include="TMSRemoteRestoreDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TMSRemoteRestore.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Include\json\json\json_internalarray.inl" />
+    <None Include="..\Include\json\json\json_internalmap.inl" />
+    <None Include="..\Include\json\json\json_valueiterator.inl" />
+    <None Include="res\TMSRemoteRestore.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TMSRemoteRestore.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TMSRemoteRestore.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

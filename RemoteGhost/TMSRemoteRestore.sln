@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TMSRemoteRestore", "TMSRemoteRestore\TMSRemoteRestore.vcxproj", "{628C47AC-40AE-4B96-B45D-7E0DEA842588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628C47AC-40AE-4B96-B45D-7E0DEA842588}.Debug|Win32.ActiveCfg = Debug|Win32
+		{628C47AC-40AE-4B96-B45D-7E0DEA842588}.Debug|Win32.Build.0 = Debug|Win32
+		{628C47AC-40AE-4B96-B45D-7E0DEA842588}.Release|Win32.ActiveCfg = Release|Win32
+		{628C47AC-40AE-4B96-B45D-7E0DEA842588}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

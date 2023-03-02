@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="logging">
+      <UniqueIdentifier>{f81160ae-219d-423f-a814-fac44db3e945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{bc2d003b-b648-41fe-92a3-71c2f800a0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{9ddbb702-db4e-468f-ac8e-b9853ef8dbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{e24b08e7-05a0-4b15-b018-ad77e7b85e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model\BusinessLayer">
+      <UniqueIdentifier>{33d65e4d-c0bc-4189-9d42-d53e9b39e515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\json">
+      <UniqueIdentifier>{0e5ec270-cb59-45ab-87d8-e532653d0fb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TMSRemoteRestore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TMSRemoteRestoreDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\logging\Log.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\logging\LogDefine.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\logging\OSSpecific.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\logging\shared_queue.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\CrashHandler.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\CRC32.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\Crc32Faster.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\ExportMessageStatus.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\FileVersionInfo.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\singleinstance.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\Utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\ConsoleSolidcoreInteract.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utils\Console.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Drive.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\InforStructJSON.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\JsonParser.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\model\HTMLUtils.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\model\BusinessLayer\DataObject.h">
+      <Filter>model\BusinessLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\model\BusinessLayer\DeviceStatusObject.h">
+      <Filter>model\BusinessLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\autolink.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\config.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\features.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\forwards.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\json.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\json_batchallocator.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\json_tool.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\reader.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\value.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\json\json\writer.h">
+      <Filter>json\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TMSRemoteRestore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TMSRemoteRestoreDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\logging\Log.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\logging\OSSpecific.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\CrashHandler.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\CRC32.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\ExportMessageStatus.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\FileVersionInfo.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\singleinstance.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\Utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\ConsoleSolidcoreInteract.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\utils\Console.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Drive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\json\InforStructJSON.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\json\JsonParser.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\model\HTMLUtils.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TMSRemoteRestore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TMSRemoteRestore.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Include\json\json\json_internalarray.inl">
+      <Filter>json\json</Filter>
+    </None>
+    <None Include="..\Include\json\json\json_internalmap.inl">
+      <Filter>json\json</Filter>
+    </None>
+    <None Include="..\Include\json\json\json_valueiterator.inl">
+      <Filter>json\json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TMSRemoteRestore.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

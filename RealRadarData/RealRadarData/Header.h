@@ -1,0 +1,13 @@
+#define PACKET_SIZE_1_MILE 512
+#define PACKET_SIZE_5_MILE 2560
+#define PACKET_SIZE_10_MILE 5120
+#define PACKET_SIZE_20_MILE 5120
+#define PACKET_SIZE_40_MILE 5120
+#define PACKET_SIZE PACKET_SIZE_5_MILE
+#define NUMBER_OF_PACKETS   36000
+
+struct TRadarPacket
+{
+    char header[100];
+    char data[PACKET_SIZE];
+};
